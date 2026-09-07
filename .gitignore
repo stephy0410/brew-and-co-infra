@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+.terraform.tfstate.lock.info
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+tfplan
+*.tfplan
+
+# Variables (pueden contener valores sensibles: account IDs, tokens)
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Credenciales
+*.pem
+.env
+.env.*
+
+# macOS
+.DS_Store
